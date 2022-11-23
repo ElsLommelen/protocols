@@ -1,0 +1,16 @@
+changes-compared-to-previous-versions
+section
+abstract
+goal
+scope
+not-in-scope
+preparations
+safety
+material
+human-resources
+dependencies-on-other-procedures
+visualized-procedure
+step-by-step-procedure
+definitions
+title-first-appendix
+title-second-appendix
