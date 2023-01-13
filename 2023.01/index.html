@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+<meta name="protocol-title" content="How to work with GPS" />
+<meta name="protocol-subtitle" content="subtitle" />
+<meta name="protocol-code" content="sip-003-en" />
+<meta name="protocol-version" content="2023.01" />
+<meta name="protocol-language" content="en" />
+<meta name="protocol-theme" content="" />
+<meta name="protocol-reviewer" content="someone else" />
+<meta name="protocol-file-manager" content="who?" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>How to work with GPS</title>
+  <meta name="description" content="How to work with GPS">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="How to work with GPS" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://inbo.github.io/protocols/" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="How to work with GPS" />
+  
+  
+  
+
+
+
+<meta name="date" content="2023-01-09">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="css/inbo_rapport.css" type="text/css"/>
+
+<link rel="stylesheet" href="css/inbo_rapport.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/en-gb/homepage/"><img src="css/img/inbo-en.jpg"></a></li>
+<li class="toc-logo"><a href="https://inbo.github.io/protocols/"><button class="btn"><i class="fa fa-home"></i> Protocols homepage</button></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="#metadata"><i class="fa fa-check"></i>Metadata</a></li>
+<li class="chapter" data-level="1" data-path=""><a href="#changes-compared-to-previous-versions"><i class="fa fa-check"></i><b>1</b> Changes compared to previous versions</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path=""><a href="#section"><i class="fa fa-check"></i><b>1.1</b> 2023.01</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path=""><a href="#abstract"><i class="fa fa-check"></i><b>2</b> Abstract</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path=""><a href="#goal"><i class="fa fa-check"></i><b>2.1</b> Goal</a></li>
+<li class="chapter" data-level="2.2" data-path=""><a href="#scope"><i class="fa fa-check"></i><b>2.2</b> Scope</a></li>
+<li class="chapter" data-level="2.3" data-path=""><a href="#not-in-scope"><i class="fa fa-check"></i><b>2.3</b> Not in scope</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path=""><a href="#preparations"><i class="fa fa-check"></i><b>3</b> Preparations</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path=""><a href="#safety"><i class="fa fa-check"></i><b>3.1</b> Safety</a></li>
+<li class="chapter" data-level="3.2" data-path=""><a href="#material"><i class="fa fa-check"></i><b>3.2</b> Material</a></li>
+<li class="chapter" data-level="3.3" data-path=""><a href="#human-resources"><i class="fa fa-check"></i><b>3.3</b> Human resources</a></li>
+<li class="chapter" data-level="3.4" data-path=""><a href="#dependencies-on-other-procedures"><i class="fa fa-check"></i><b>3.4</b> Dependencies on other procedures</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path=""><a href="#visualized-procedure"><i class="fa fa-check"></i><b>4</b> Visualized procedure</a></li>
+<li class="chapter" data-level="5" data-path=""><a href="#step-by-step-procedure"><i class="fa fa-check"></i><b>5</b> Step-by-step procedure</a></li>
+<li class="chapter" data-level="6" data-path=""><a href="#definitions"><i class="fa fa-check"></i><b>6</b> Definitions</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#references"><i class="fa fa-check"></i>References</a></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path=""><a href="#title-first-appendix"><i class="fa fa-check"></i><b>A</b> Title first appendix</a></li>
+<li class="part"><span><b>I Subprotocols</b></span></li>
+<li class="divider"></li>
+<li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="css/img/cc-by.png"></a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">How to work with GPS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+  <h1 class="title">How to work with GPS</h1>
+    <h2 class="subtitle">subtitle</h2>
+              <h3 class="author">Van Calster, Hans
+              <a href="https://orcid.org/0000-0001-8595-8426">
+        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+        0000-0001-8595-8426
+        </a>
+            </h3>
+                              <p class="date"><em>2023-01-09</em></p>
+      </div>
+<!--
+Instructions for drawing up the protocol:
+
+Below you will find the different parts of a protocol.
+In the accompanying separate `Rmd` files you will find a description of what must be mentioned with each part.
+It is in those files that you need to edit.
+Not all parts always apply.
+In those cases, leave the title headings and explicitly state "not applicable".
+-->
+<div id="metadata" class="section level1 unnumbered hasAnchor">
+<h1>Metadata<a href="#metadata" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">reviewers</th>
+<th align="left">file_manager</th>
+<th align="left">protocol_code</th>
+<th align="left">version_number</th>
+<th align="left">language</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">someone else</td>
+<td align="left">who?</td>
+<td align="left">sip-003-en</td>
+<td align="left">2023.01</td>
+<td align="left">en</td>
+</tr>
+</tbody>
+</table>
+<p>Check the <a href="../standard-instrument-protocols-sip.html" target="_blank">table listing all versions</a> to see if a more recent version is available.</p>
+
+</div>
+<div id="changes-compared-to-previous-versions" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Changes compared to previous versions<a href="#changes-compared-to-previous-versions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+Describe changes compared to the previous version. 
+Give the reason for the change and - when relevant - give a short description of what has changed. 
+Sort the changes by version number, most recent comes first. 
+:
+
+## [2020.02](../2020.02/index.html)
+
+- Add a missing step in the workflow
+- Fix some typos
+
+## [2020.01](../2020.01/index.html)
+
+- First version of the protocol
+-->
+<div id="section" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> <a href="../2023.01/index.html">2023.01</a><a href="#section" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>First version of the protocol</li>
+</ul>
+
+</div>
+</div>
+<div id="abstract" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Abstract<a href="#abstract" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="goal" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Goal<a href="#goal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="scope" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> Scope<a href="#scope" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="not-in-scope" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Not in scope<a href="#not-in-scope" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
++ where to find information on what's not in scope if existing
+-->
+
+</div>
+</div>
+<div id="preparations" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Preparations<a href="#preparations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="safety" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Safety<a href="#safety" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+vaccinations, protective clothing, warnings of dangerous chemicals, emergency protocols
+-->
+</div>
+<div id="material" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Material<a href="#material" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+(Equipment, Labels, Data registration (GPS, sampling table, tablet, phone, ...))
+-->
+</div>
+<div id="human-resources" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Human resources<a href="#human-resources" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+Which roles and why? Minimal number of people needed for this procedure? Skill set/training needed for this procedure?
+-->
+</div>
+<div id="dependencies-on-other-procedures" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Dependencies on other procedures<a href="#dependencies-on-other-procedures" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+Should another procedure be known/studied prior to executing this procedure?
+The table below is automatically filled in based on information in the yaml section of the `index.Rmd` file
+-->
+<table>
+<thead>
+<tr class="header">
+<th align="left">Protocol code</th>
+<th align="left">Version number</th>
+<th align="left">params</th>
+<th align="left">Included as subprotocol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+<div id="visualized-procedure" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Visualized procedure<a href="#visualized-procedure" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+Flowchart (can be optional but encouraged when helpful)
+-->
+
+</div>
+<div id="step-by-step-procedure" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> Step-by-step procedure<a href="#step-by-step-procedure" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+written text (including quality assurance) and best is also to include visual aid (photo's, diagrams, ...)
+-->
+
+</div>
+<div id="definitions" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Definitions<a href="#definitions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1>References<a href="#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs">
+
+</div>
+
+</div>
+
+
+
+<div id="title-first-appendix" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">A</span> Title first appendix<a href="#title-first-appendix" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--including principles, context, more explanation, perhaps extra photos, ...-->
+
+</div>
+
+
+
+</div>
+
+<p>&nbsp;</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="css/img/cc-by.png" class = "cc"/></a>
+            </section>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/inbo/protocolsource/edit/main/source/sip/sip_003_en_gps/%s",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["sip-003-en_2023.01.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+
+</body>
+
+</html>
