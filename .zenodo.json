@@ -1,0 +1,98 @@
+{
+  "title": "Protocols website of the Research Institute for Nature and Forest (INBO)",
+  "description": "This archive contains the rendered html and pdf files of protocols used at the Research Institute for Nature and Forest (INBO), Brussels, Belgium (<a href=\"https://www.inbo.be/en\">www.inbo.be<\/a>). The website with the compiled protocols (including older versions) is at <a href=\"https://protocols.inbo.be\">https://protocols.inbo.be<\/a>.",
+  "license": "cc-by",
+  "upload_type": "other",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Van Calster, Hans",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-8595-8426"
+    },
+    {
+      "name": "De Bie, Els",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-7679-743X"
+    },
+    {
+      "name": "Toon Westra",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0003-2478-9459"
+    },
+    {
+      "name": "lastname, firstname",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-2345-6789"
+    },
+    {
+      "name": "Oosterlynck, Patrik",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0002-5712-0770"
+    },
+    {
+      "name": "Onkelinx, Thierry",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0001-8804-4216"
+    },
+    {
+      "name": "Vanderhaeghe, Floris",
+      "affiliation": "Research Institute for Nature and Forest",
+      "orcid": "0000-0002-6378-6229"
+    }
+  ],
+  "keywords": [
+    "open protocol",
+    "open science",
+    "research institute",
+    "nature",
+    "forest",
+    "environment",
+    "markdown",
+    "Flanders",
+    "Belgium"
+  ],
+  "contributors": [
+    {
+      "name": "Toon Westra",
+      "type": "Researcher",
+      "orcid": "0000-0003-2478-9459"
+    },
+    {
+      "name": "lastname, firstname",
+      "type": "Researcher",
+      "orcid": "0000-0001-2345-6789"
+    },
+    {
+      "name": {
+        "given": "Hans",
+        "family": "Van Calster"
+      },
+      "type": "Researcher",
+      "email": "hans.vancalster@inbo.be",
+      "orcid": "0000-0001-8595-8426",
+      "affiliation": "Research Institute for Nature and Forest (INBO)",
+      "corresponding": true
+    },
+    {
+      "name": "Van Calster, Hans",
+      "type": "Researcher",
+      "orcid": "0000-0001-8595-8426"
+    },
+    {
+      "name": "Van Calster, Hans",
+      "type": "Researcher",
+      "orcid": "0000-0001-8595-8426"
+    },
+    {
+      "name": "Oosterlynck, Patrik",
+      "type": "Researcher",
+      "orcid": "0000-0002-5712-0770"
+    },
+    {
+      "name": "Oosterlynck, Patrik",
+      "type": "Researcher",
+      "orcid": "0000-0002-5712-0770"
+    }
+  ]
+}
