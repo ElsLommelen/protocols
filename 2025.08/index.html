@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+<meta name="protocol-title" content="Dit is een test" />
+<meta name="protocol-subtitle" content="bla" />
+<meta name="protocol-code" content="sap-012-nl" />
+<meta name="protocol-version" content="2025.08" />
+<meta name="protocol-language" content="" />
+<meta name="protocol-theme" content="" />
+<meta name="protocol-reviewer" content="list(name = list(given = "Els", family = "Lommelen"), email = "els.lommelen@inbo.be", orcid = "0000-0002-3481-5684", affiliation = "Research Institute for Nature and Forest (INBO)")" />
+<meta name="protocol-file-manager" content="list(name = list(given = "Thierry", family = "Onkelinx"), email = "thierry.onkelinx@inbo.be", orcid = "0000-0001-8804-4216", affiliation = "Research Institute for Nature and Forest (INBO)")" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Dit is een test</title>
+  <meta name="description" content="Dit is een test">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Dit is een test" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dit is een test" />
+  
+  
+  
+
+
+
+<meta name="date" content="2025-05-08">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="css/inbo_rapport.css" type="text/css"/>
+
+<link rel="stylesheet" href="css/inbo_rapport.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+<a class="chapter" href="https://doi.org/10.5072/zenodo.215318">10.5072/zenodo.215318</a>
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo"><a href="https://www.vlaanderen.be/inbo/home/"><img src="css/img/inbo-nl.jpg"></a></li>
+<li class="toc-logo"><a href="https://inbo.github.io/protocols/"><button class="btn"><i class="fa fa-home"></i> Protocols homepage</button></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path=""><a href="#metadata"><i class="fa fa-check"></i>Metadata</a></li>
+<li class="chapter" data-level="1" data-path=""><a href="#wijzigingen-t.o.v.-vorige-versies"><i class="fa fa-check"></i><b>1</b> Wijzigingen t.o.v. vorige versies</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path=""><a href="#section"><i class="fa fa-check"></i><b>1.1</b> 2025.08</a></li>
+<li class="chapter" data-level="1.2" data-path=""><a href="#section-1"><i class="fa fa-check"></i><b>1.2</b> 2025.07</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path=""><a href="#afhankelijkheden"><i class="fa fa-check"></i><b>2</b> Afhankelijkheden</a></li>
+<li class="chapter" data-level="3" data-path=""><a href="#onderwerp"><i class="fa fa-check"></i><b>3</b> Onderwerp</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path=""><a href="#toepassingsgebied"><i class="fa fa-check"></i><b>3.1</b> Toepassingsgebied</a></li>
+<li class="chapter" data-level="3.2" data-path=""><a href="#werkgebied"><i class="fa fa-check"></i><b>3.2</b> Werkgebied</a></li>
+<li class="chapter" data-level="3.3" data-path=""><a href="#methodekarakteristieken"><i class="fa fa-check"></i><b>3.3</b> Methodekarakteristieken</a></li>
+<li class="chapter" data-level="3.4" data-path=""><a href="#beperkingen-tot-de-matrix"><i class="fa fa-check"></i><b>3.4</b> Beperkingen tot de matrix</a></li>
+<li class="chapter" data-level="3.5" data-path=""><a href="#definities-en-afkortingen"><i class="fa fa-check"></i><b>3.5</b> Definities en afkortingen</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path=""><a href="#principe"><i class="fa fa-check"></i><b>4</b> Principe</a></li>
+<li class="chapter" data-level="5" data-path=""><a href="#benodigdheden"><i class="fa fa-check"></i><b>5</b> Benodigdheden</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path=""><a href="#apparatuur"><i class="fa fa-check"></i><b>5.1</b> Apparatuur</a></li>
+<li class="chapter" data-level="5.2" data-path=""><a href="#materiaal"><i class="fa fa-check"></i><b>5.2</b> Materiaal</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path=""><a href="#reagentia-en-oplossingen"><i class="fa fa-check"></i><b>6</b> Reagentia en oplossingen</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path=""><a href="#reagentia"><i class="fa fa-check"></i><b>6.1</b> Reagentia</a></li>
+<li class="chapter" data-level="6.2" data-path=""><a href="#oplossingen"><i class="fa fa-check"></i><b>6.2</b> Oplossingen</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path=""><a href="#werkwijze"><i class="fa fa-check"></i><b>7</b> Werkwijze</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path=""><a href="#monstervoorbehandeling"><i class="fa fa-check"></i><b>7.1</b> Monstervoorbehandeling</a></li>
+<li class="chapter" data-level="7.2" data-path=""><a href="#uitvoering"><i class="fa fa-check"></i><b>7.2</b> Uitvoering</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path=""><a href="#opstarten-van-het-toestel"><i class="fa fa-check"></i><b>7.2.1</b> Opstarten van het toestel</a></li>
+<li class="chapter" data-level="7.2.2" data-path=""><a href="#operationeel-maken-van-het-toestel"><i class="fa fa-check"></i><b>7.2.2</b> Operationeel maken van het toestel</a></li>
+<li class="chapter" data-level="7.2.3" data-path=""><a href="#batch-aanmaken-in-lims-en-analysefile-exporteren"><i class="fa fa-check"></i><b>7.2.3</b> Batch aanmaken in <code>LIMS</code> en analysefile exporteren</a></li>
+<li class="chapter" data-level="7.2.4" data-path=""><a href="#methode"><i class="fa fa-check"></i><b>7.2.4</b> Methode</a></li>
+<li class="chapter" data-level="7.2.5" data-path=""><a href="#meting"><i class="fa fa-check"></i><b>7.2.5</b> Meting</a></li>
+<li class="chapter" data-level="7.2.6" data-path=""><a href="#afleggen-van-het-toestel"><i class="fa fa-check"></i><b>7.2.6</b> Afleggen van het toestel</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path=""><a href="#resultaat"><i class="fa fa-check"></i><b>7.3</b> Resultaat</a>
+<ul>
+<li class="chapter" data-level="7.3.1" data-path=""><a href="#berekening-van-het-resultaat"><i class="fa fa-check"></i><b>7.3.1</b> Berekening van het resultaat</a></li>
+<li class="chapter" data-level="7.3.2" data-path=""><a href="#exporteren-van-de-resultaten-uit-het-toestel"><i class="fa fa-check"></i><b>7.3.2</b> Exporteren van de resultaten uit het toestel</a></li>
+<li class="chapter" data-level="7.3.3" data-path=""><a href="#importeren-en-goedkeuren-van-resultaten-in-lims"><i class="fa fa-check"></i><b>7.3.3</b> Importeren en goedkeuren van resultaten in <code>LIMS</code></a></li>
+<li class="chapter" data-level="7.3.4" data-path=""><a href="#uitdrukking-van-het-resultaat"><i class="fa fa-check"></i><b>7.3.4</b> Uitdrukking van het resultaat</a></li>
+<li class="chapter" data-level="7.3.5" data-path=""><a href="#rapportering-in-lims"><i class="fa fa-check"></i><b>7.3.5</b> Rapportering in <code>LIMS</code></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path=""><a href="#kalibratie"><i class="fa fa-check"></i><b>8</b> Kalibratie</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path=""><a href="#standaardmateriaal"><i class="fa fa-check"></i><b>8.1</b> Standaardmateriaal</a></li>
+<li class="chapter" data-level="8.2" data-path=""><a href="#meting-standaarden"><i class="fa fa-check"></i><b>8.2</b> Meting standaarden</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path=""><a href="#frequentie"><i class="fa fa-check"></i><b>8.2.1</b> Frequentie</a></li>
+<li class="chapter" data-level="8.2.2" data-path=""><a href="#criteria"><i class="fa fa-check"></i><b>8.2.2</b> Criteria</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path=""><a href="#corrigerende-maatregelen"><i class="fa fa-check"></i><b>8.3</b> Corrigerende maatregelen</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path=""><a href="#kwaliteitsborging"><i class="fa fa-check"></i><b>9</b> Kwaliteitsborging</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path=""><a href="#referentiemateriaal"><i class="fa fa-check"></i><b>9.1</b> Referentiemateriaal</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path=""><a href="#procedureblanco"><i class="fa fa-check"></i><b>9.1.1</b> (Procedure)blanco</a></li>
+<li class="chapter" data-level="9.1.2" data-path=""><a href="#referentie"><i class="fa fa-check"></i><b>9.1.2</b> Referentie</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path=""><a href="#meting-referenties"><i class="fa fa-check"></i><b>9.2</b> Meting referenties</a>
+<ul>
+<li class="chapter" data-level="9.2.1" data-path=""><a href="#frequenties"><i class="fa fa-check"></i><b>9.2.1</b> Frequenties</a></li>
+<li class="chapter" data-level="9.2.2" data-path=""><a href="#criteria-1"><i class="fa fa-check"></i><b>9.2.2</b> Criteria</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path=""><a href="#corrigerende-maatregelen-1"><i class="fa fa-check"></i><b>9.3</b> Corrigerende maatregelen</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path=""><a href="#methoderecept-en-organogram"><i class="fa fa-check"></i><b>10</b> Methoderecept en organogram</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path=""><a href="#methoderecept"><i class="fa fa-check"></i><b>10.1</b> Methoderecept</a></li>
+<li class="chapter" data-level="10.2" data-path=""><a href="#organogram"><i class="fa fa-check"></i><b>10.2</b> Organogram</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path=""><a href="#veiligheid"><i class="fa fa-check"></i><b>11</b> Veiligheid</a></li>
+<li class="chapter" data-level="12" data-path=""><a href="#rapportage-en-archivering"><i class="fa fa-check"></i><b>12</b> Rapportage en archivering</a></li>
+<li class="chapter" data-level="" data-path=""><a href="#referenties"><i class="fa fa-check"></i>Referenties</a></li>
+<li class="appendix"><span><b>Bijlagen</b></span></li>
+<li class="divider"></li>
+<li class="cc"><a href="http://creativecommons.org/licenses/by/4.0/"><img src="css/img/cc-by.png"></a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Dit is een test</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+  <div id="header">
+    <h1 class="title">Dit is een test</h1>
+      <h2 class="subtitle">bla</h2>
+        <h3 class="author">Hans Van Calster
+          <a href="https://orcid.org/0000-0001-8595-8426">
+      <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+      0000-0001-8595-8426
+      </a>
+        </h3>
+          <address class="author_afil">
+      Research Institute for Nature and Forest (INBO)
+              <br><a class="author_email" href="mailto:#"><a href="mailto:hans.vancalster@inbo.be" class="email">hans.vancalster@inbo.be</a></a>
+            </address>
+            <p class="date"><em>2025-05-08</em></p>
+        <h4><a class="doi" href="https://doi.org/10.5072/zenodo.215318">10.5072/zenodo.215318</a></h4>
+    
+<!--
+Instructies bij opmaak van het protocol:
+
+Hieronder vind je de verschillende onderdelen van een protocol.
+In de bijhorende losse `Rmd` bestanden vind je een beschrijving wat er bij elk onderdeel vermeld moet worden.
+Het is in die bestanden dat je moet editeren.
+Niet alle onderdelen zijn altijd van toepassing.
+Laat in die gevallen de titels staan en vermeld expliciet "niet van toepassing".
+-->
+<div id="metadata" class="section level1 unnumbered hasAnchor">
+<h1>Metadata<a href="#metadata" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<table style="width:100%;">
+<colgroup>
+<col width="20%" />
+<col width="27%" />
+<col width="20%" />
+<col width="20%" />
+<col width="9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">reviewers</th>
+<th align="left">documentbeheerder</th>
+<th align="left">protocolcode</th>
+<th align="left">versienummer</th>
+<th align="left">taal</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Els Lommelen</td>
+<td align="left">Thierry Onkelinx</td>
+<td align="left">sap-012-nl</td>
+<td align="left">2025.08</td>
+<td align="left">nl</td>
+</tr>
+</tbody>
+</table>
+<p>Controleer <a href="../standard-analytical-protocols-sap.html" target="_blank">deze tabel</a> om te zien of een meer recente versie beschikbaar is.</p>
+
+</div>
+<div id="wijzigingen-t.o.v.-vorige-versies" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Wijzigingen t.o.v. vorige versies<a href="#wijzigingen-t.o.v.-vorige-versies" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="section" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> <a href="../2025.08/index.html">2025.08</a><a href="#section" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>…</li>
+</ul>
+</div>
+<div id="section-1" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> <a href="../2025.07/index.html">2025.07</a><a href="#section-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>…</li>
+</ul>
+<!--
+Omschrijf hier welke wijzigingen er gebeurd zijn ten opzichte van de vorige versie. 
+Vermeld bij elk versienummer, de reden van de wijziging en - wanneer relevant - een beknopte beschrijving van de wijziging.
+Gesorteerd van recent naar oud. 
+
+## [2020.02](../2020.02/index.html)
+
+- Toevoeging van ontbrekende stap in het stappenplan
+- Verbetering van schrijffouten
+
+## [2020.01](../2020.01/index.html)
+
+- Eerste versie van het protocol
+-->
+
+</div>
+</div>
+<div id="afhankelijkheden" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Afhankelijkheden<a href="#afhankelijkheden" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+Hier niets invullen.
+Indien er afhankelijkheden zijn deze invullen in de yaml sectie van `index.Rmd`
+-->
+<table style="width:93%;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="12%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Protocolcode</th>
+<th align="left">Versienummer</th>
+<th align="left">params</th>
+<th align="left">Opgenomen als subprotocol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+<td align="left">NA</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id="onderwerp" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Onderwerp<a href="#onderwerp" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!-- description: start -->
+<!-- description: end -->
+<div id="toepassingsgebied" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Toepassingsgebied<a href="#toepassingsgebied" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="werkgebied" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Werkgebied<a href="#werkgebied" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="methodekarakteristieken" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Methodekarakteristieken<a href="#methodekarakteristieken" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>De prestatiekenmerken zijn terug te vinden in document <a href="https://docs.google.com/spreadsheets/d/1U605Tg2zzHk1eyXHW0TB4TgN7-E39xExspJaBkyKkYk/edit?usp=sharing">“Prestatiekenmerken”</a> en worden bepaald volgens de procedure <a href="https://docs.google.com/document/d/1f7QLhBUvL7zUjB1FpjzG9qK3EWKHKfCgKtxEsigTKNA/edit">“Implementatie Kwantitatieve Methoden”</a>.</p>
+</div>
+<div id="beperkingen-tot-de-matrix" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Beperkingen tot de matrix<a href="#beperkingen-tot-de-matrix" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="definities-en-afkortingen" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Definities en afkortingen<a href="#definities-en-afkortingen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+<div id="principe" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Principe<a href="#principe" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--
+Korte omschrijving van de principes waarop het protocol gebaseerd is.
+-->
+
+</div>
+<div id="benodigdheden" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> Benodigdheden<a href="#benodigdheden" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="apparatuur" class="section level2 hasAnchor" number="5.1">
+<h2><span class="header-section-number">5.1</span> Apparatuur<a href="#apparatuur" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+Opsomming van de apparatuur die nodig is en verwijzingen naar de `sip`'s (Standaard Instrument Procedure; `<protocol-code>-YYYY.NN`) indien die er zijn.
+Indien geen specifiek `sip`'s voorhanden, illustreer de toegelaten apparatuur met foto's, geef het exacte type apparatuur mee, ...
+-->
+</div>
+<div id="materiaal" class="section level2 hasAnchor" number="5.2">
+<h2><span class="header-section-number">5.2</span> Materiaal<a href="#materiaal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--
+Opsomming van gebruikte materialen.
+Duidelijk aangeven welke materialen toelaatbaar zijn, welke volumes, afmetingen, materiaal, ... 
+Vermeld bijvoorbeeld niet staalnamepotje, maar wel: vierkant flesje, volume 250 ml, gegradueerd, vervaardigd uit `PE`, met afsluitbare deksel uit `PP`.
+-->
+
+</div>
+</div>
+<div id="reagentia-en-oplossingen" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Reagentia en oplossingen<a href="#reagentia-en-oplossingen" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>Gedemineraliseerd water</strong>: elektrische geleidbaarheid kleiner dan 2 <span class="math inline">\(\mu S / cm\)</span> bij 25 °C.</p>
+<p><strong>Ultra puur water</strong>: elektrische geleidbaarheid kleiner dan 0,1 <span class="math inline">\(\mu S / cm\)</span>, equivalent met een weerstand groter dan 0,01 <span class="math inline">\(M\Omega \quad m\)</span> bij 25 °C.
+Het wordt aangeraden water te gebruiken van een waterzuiveringssysteem dat ultra puur water levert met een weerstand groter dan 0,18 <span class="math inline">\(M\Omega \quad m\)</span> (doorgaans uitgedrukt als 18,2 <span class="math inline">\(M\Omega \quad cm\)</span>).</p>
+<div id="reagentia" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Reagentia<a href="#reagentia" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Naam reagentia (molecuulformule), zuiverheid (code)</li>
+</ul>
+</div>
+<div id="oplossingen" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> Oplossingen<a href="#oplossingen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>De bereidingswijze van zelfbereide oplossingen (<code>ZBV</code>) is terug te vinden in het <a href="https://drive.google.com/drive/folders/1MJR86HF3JywHXZI7z1tIoHSdKs7o3pta">receptenboek</a>.
+Volgende oplossingen zijn van toepassing.</p>
+<ul>
+<li>Naam oplossing, concentratie (code)</li>
+</ul>
+
+</div>
+</div>
+<div id="werkwijze" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">7</span> Werkwijze<a href="#werkwijze" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Stappenplan</p>
+<div id="monstervoorbehandeling" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Monstervoorbehandeling<a href="#monstervoorbehandeling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Meer informatie over de voorbehandeling (drogen, verfijnen, homogeniseren en bewaren) is terug te vinden in de <a href="https://drive.google.com/drive/folders/1Gxl2OsMiRJ8JueLgzzqaKyzy40tvXB3a">procedures over monstervoorbehandeling</a>.</p>
+</div>
+<div id="uitvoering" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> Uitvoering<a href="#uitvoering" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="opstarten-van-het-toestel" class="section level3 hasAnchor" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Opstarten van het toestel<a href="#opstarten-van-het-toestel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="operationeel-maken-van-het-toestel" class="section level3 hasAnchor" number="7.2.2">
+<h3><span class="header-section-number">7.2.2</span> Operationeel maken van het toestel<a href="#operationeel-maken-van-het-toestel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="batch-aanmaken-in-lims-en-analysefile-exporteren" class="section level3 hasAnchor" number="7.2.3">
+<h3><span class="header-section-number">7.2.3</span> Batch aanmaken in <code>LIMS</code> en analysefile exporteren<a href="#batch-aanmaken-in-lims-en-analysefile-exporteren" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="methode" class="section level3 hasAnchor" number="7.2.4">
+<h3><span class="header-section-number">7.2.4</span> Methode<a href="#methode" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="meting" class="section level3 hasAnchor" number="7.2.5">
+<h3><span class="header-section-number">7.2.5</span> Meting<a href="#meting" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="afleggen-van-het-toestel" class="section level3 hasAnchor" number="7.2.6">
+<h3><span class="header-section-number">7.2.6</span> Afleggen van het toestel<a href="#afleggen-van-het-toestel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+</div>
+<div id="resultaat" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Resultaat<a href="#resultaat" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="berekening-van-het-resultaat" class="section level3 hasAnchor" number="7.3.1">
+<h3><span class="header-section-number">7.3.1</span> Berekening van het resultaat<a href="#berekening-van-het-resultaat" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="exporteren-van-de-resultaten-uit-het-toestel" class="section level3 hasAnchor" number="7.3.2">
+<h3><span class="header-section-number">7.3.2</span> Exporteren van de resultaten uit het toestel<a href="#exporteren-van-de-resultaten-uit-het-toestel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="importeren-en-goedkeuren-van-resultaten-in-lims" class="section level3 hasAnchor" number="7.3.3">
+<h3><span class="header-section-number">7.3.3</span> Importeren en goedkeuren van resultaten in <code>LIMS</code><a href="#importeren-en-goedkeuren-van-resultaten-in-lims" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Kopieer de file met de resultaten vanuit het mapje van de batch naar de <code>scheduler</code> onder <code>_SCHEDULER\...</code> Nadat de resultaten ingelezen zijn, moeten ze beoordeeld en goedgekeurd worden.
+Hoe de resultaten geïmporteerd en goedgekeurd moeten worden in <code>LIMS</code> staat beschreven in de <a href="https://drive.google.com/drive/folders/1bt6E5PhKSZlRJIRu9xsLus3apLaNTLTX">procedure over het gebruik van <code>LIMS</code></a>.</p>
+</div>
+<div id="uitdrukking-van-het-resultaat" class="section level3 hasAnchor" number="7.3.4">
+<h3><span class="header-section-number">7.3.4</span> Uitdrukking van het resultaat<a href="#uitdrukking-van-het-resultaat" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="rapportering-in-lims" class="section level3 hasAnchor" number="7.3.5">
+<h3><span class="header-section-number">7.3.5</span> Rapportering in <code>LIMS</code><a href="#rapportering-in-lims" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+
+</div>
+</div>
+</div>
+<div id="kalibratie" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">8</span> Kalibratie<a href="#kalibratie" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="standaardmateriaal" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Standaardmateriaal<a href="#standaardmateriaal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="meting-standaarden" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Meting standaarden<a href="#meting-standaarden" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="frequentie" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> Frequentie<a href="#frequentie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="criteria" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Criteria<a href="#criteria" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Indien de kalibratie niet aan de kwaliteitscriteria voldoet, dan worden corrigerende maatregelen genomen.</p>
+</div>
+</div>
+<div id="corrigerende-maatregelen" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Corrigerende maatregelen<a href="#corrigerende-maatregelen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Specifieke corrigerende maatregelen zijn:</p>
+
+</div>
+</div>
+<div id="kwaliteitsborging" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">9</span> Kwaliteitsborging<a href="#kwaliteitsborging" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="referentiemateriaal" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Referentiemateriaal<a href="#referentiemateriaal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="procedureblanco" class="section level3 hasAnchor" number="9.1.1">
+<h3><span class="header-section-number">9.1.1</span> (Procedure)blanco<a href="#procedureblanco" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="referentie" class="section level3 hasAnchor" number="9.1.2">
+<h3><span class="header-section-number">9.1.2</span> Referentie<a href="#referentie" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+</div>
+<div id="meting-referenties" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> Meting referenties<a href="#meting-referenties" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="frequenties" class="section level3 hasAnchor" number="9.2.1">
+<h3><span class="header-section-number">9.2.1</span> Frequenties<a href="#frequenties" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="criteria-1" class="section level3 hasAnchor" number="9.2.2">
+<h3><span class="header-section-number">9.2.2</span> Criteria<a href="#criteria-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>De meetwaarde van de referentie moet gelegen zijn tussen de <code>2S-grenzen</code> zoals gespecificeerd in het document <a href="https://docs.google.com/spreadsheets/d/123VjdBfflTJLL7lTrm3UF57qQ_6ZcISXUEIBWVjGe5E/edit?usp=sharing">“Grenswaarden controlekaarten”</a>.
+Deze <code>2S-grenzen</code> zijn de waarden uit de controlekaart van het jaar <code>X-1</code>.
+Indien de meetwaarde hieraan niet voldoet, moet de controlekaart geraadpleegd worden om de resultaten al dan niet te aanvaarden.</p>
+</div>
+</div>
+<div id="corrigerende-maatregelen-1" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> Corrigerende maatregelen<a href="#corrigerende-maatregelen-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Indien niet aan de kwaliteitscriteria voldaan wordt, dan worden corrigerende maatregelen genomen.
+Specifieke corrigerende maatregelen zijn:</p>
+
+</div>
+</div>
+<div id="methoderecept-en-organogram" class="section level1 hasAnchor" number="10">
+<h1><span class="header-section-number">10</span> Methoderecept en organogram<a href="#methoderecept-en-organogram" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="methoderecept" class="section level2 hasAnchor" number="10.1">
+<h2><span class="header-section-number">10.1</span> Methoderecept<a href="#methoderecept" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="organogram" class="section level2 hasAnchor" number="10.2">
+<h2><span class="header-section-number">10.2</span> Organogram<a href="#organogram" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+<div id="veiligheid" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Veiligheid<a href="#veiligheid" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>De metingen worden uitgevoerd in het laboratorium; de veiligheidsvoorschriften opgesteld door het laboratorium dienen gevolgd te worden.
+De veiligheidsfiches zijn <a href="https://drive.google.com/drive/folders/1WOp8fWH3CMoHbpN1TAxPrqUrT_GqTf02">digitaal</a> terug te vinden en zijn alfabetisch gesorteerd op Nederlandstalige naam.
+De veiligheidsvoorschriften zijn opgesteld om blootstelling aan of contact met gevaarlijke producten tot een minimum te herleiden.
+Meer info hierover is terug te vinden in de <a href="https://drive.google.com/drive/folders/1zHNxMmNSiZPfmPUYeq-kyidKq6xiVEdj">procedure</a> van veiligheid.</p>
+<p>Bij het uitvoeren van de procedure zijn volgende <code>PBM</code>’s en <code>CBM</code>’s van toepassing:</p>
+<ul>
+<li><code>PBM</code>:
+<ul>
+<li>Draag werkkledij: labojas - laboschoenen</li>
+<li>Draag handbescherming: <code>nitrilrubber</code> handschoenen of thermische handschoenen</li>
+<li>Draag oogbescherming: veiligheidsbril</li>
+<li>Draag gelaatsbescherming: masker type <code>FFP1</code> of <code>FFP2</code> of <code>FFP3</code> of halfgelaatsmasker of volgelaatsmasker</li>
+</ul></li>
+<li><code>CBM</code>:
+<ul>
+<li>Werk in een trekkast of Gebruik een puntafzuiging</li>
+</ul></li>
+</ul>
+
+</div>
+<div id="rapportage-en-archivering" class="section level1 hasAnchor" number="12">
+<h1><span class="header-section-number">12</span> Rapportage en archivering<a href="#rapportage-en-archivering" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>De resultaten van de kalibratie, de stalen en het referentiemateriaal worden ingegeven in <code>LIMS</code>, in de batch van de methode.</p>
+
+</div>
+<div id="referenties" class="section level1 unnumbered hasAnchor">
+<h1>Referenties<a href="#referenties" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs">
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+<p>&nbsp;</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="css/img/cc-by.png" class = "cc"/></a>
+            </section>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": [
+    "sap-012-nl_2025.08.pdf"
+  ],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, "");
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+
+</html>
